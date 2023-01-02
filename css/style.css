@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+display: flex;
+align-items: center;
+}
+#navbar{
+    position: absolute;
+    top: 0;
+}
+
+#navbar ul{
+    display: flex;
+      
+}
+#navbar ul li {
+    
+    list-style: none;
+    font-size: 1.2rem;
+   
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 10px;
+    margin-left: 20px;
+}
+#navbar::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.h-primary{
+    font-size: 3.8rem;
+    text-align: center;}
+    
+    
+
+.h-secondary{
+    font-size: 2.8rem;
+    text-align: center;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 625px;
+}
+#home::before{
+    content:"";
+    background:url("../img/streetfood1.jpg");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.2;
+
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-size: 2.4rem;
+}
+#home p{
+    color: white;
+    text-align: center;
+}
+.btn{
+    color: white;
+    padding: 7px;
+    background-color:#bc684a;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(153, 144, 153);
+}
+#services{
+    margin: 33px;
+    display: flex;
+    
+}
+.box{
+    
+    border: 2px solid rgb(61, 16, 16);
+    height: 371px;
+    width: 320px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 23px;
+    background-color: #cbbdbd;
+}
+
+#Services .box img{
+    height: 140px;
+    display: block;
+    margin: auto;
+}
+.center{
+    text-align: center;
+    margin-top: 50px;
+}
+/* .h-primary2{
+    font-size: 3.8rem;
+    text-align: center;
+
+} */
+#client-section{
+height: 300px;
+}
+#client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#client img{
+    height: 145px;
+}
+.client-items{
+    padding: 56px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url(../img/download.jfif)center/cover;
+    height: 45%;
+    width: 100%;
+    opacity: 0.6;
+    z-index: -1;
+    }
+ #contact{
+    position: relative;
+ } 
+ #contact::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    background: url("../img/Contact2.jpg");
+
+ }  
+ footer{
+    background-color: black;
+    color: white;
+ }
+ #contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+ }
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+#contact-box form{
+    width: 35%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
